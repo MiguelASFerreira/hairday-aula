@@ -31,7 +31,7 @@ form.onsubmit = (event) => {
         }
 
         // Recuperar somente a hora
-        const hour = hourSelected.innerText.split(":")
+        const [hour] = hourSelected.innerText.split(":")
 
 
         // Inserir a hora na data
